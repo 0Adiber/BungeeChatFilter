@@ -1,0 +1,7 @@
+name: BungeeChatFilter
+version: 1.0
+author: adiber
+main: at.BungeeChatFilter.Main
+commands:
+     bcf:
+          usage: /bcf reload

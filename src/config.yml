@@ -1,0 +1,51 @@
+messages:
+   prefix: "&7[&3BungeeChatFilter&7] "
+   typingtoofast: "&cYou are typing too fast!"
+   caps: "&cPlease don't write SO MUCH CAPS!"
+   warning: "&cWatch your language!"
+   toofewargs: "&cToo few arguments (/chatfilter reload)!"
+   reloaded: "&aReloaded BungeeChatFilter &7-> &bConfig"
+settings:
+   cooldown: 1000
+   capspercent: 50
+filter:
+   - '(?i)\s+a+\s*s\s*s+'
+   - '(?i)\s+c\s*u\s*n\s*t'
+   - '(?i)\s+d\s*i\s*c\s*k'
+   - '(?i)\s+a+\s*r\s*s+\s*e*'
+   - '(?i)\s+f\s*a\s*g+'
+   - '(?i)\s+f\s*a+\s*[td]'
+   - '(?i)\s+w\s*h\s*o\s*r\s*e'
+   - '(?i)\s+h\s*o\s*e'
+   - '(?i)\s+n\s*[o0]+\s*b+'
+   - '(?i)\s+n\s*u+\s*b+'
+   - '(?i)\s+s\s*l\s*u\s*t'
+   - '(?i)\s+b\s*i\s*t\s*c\s*h'
+   - '(?i)\s+w\s*a\s*n\s*k\s*e\s*r'
+   - '(?i)\s+n\s*i\s*g+(a|r|e\s*r)'
+   - '(?i)\s+p\s*u\s*s*\s*y'
+   - '(?i)\s+k\s*y\s*s'
+   - '(?i)\s+d\s*i\s*r\s*t\s*y\s*s\s*a\s*n\s*c\s*h\s*e\s*z'
+   - '(?i)\s+c\s*r\s*e\s*a\s*m\s*p\s*i\s*e'
+   - '(?i)\s+f+\s*u*\s*c+\s*k+'
+   - '(?i)\s+p\s*o\s*r\s*n\s*h\s*u\s*b'
+   - '(?i)\s+s\s*e+\s*x+'
+   - '(?i)\s+l\s*2+\s*p'
+   - '(?i)\s+a\s*r\s*s\s*c\s*h'
+   - '(?i)\s+f\s*o\s*t\s*z\s*e'
+   - '(?i)\s+m\s*i\s*s+\s*g\s*e\s*b\s*u\s*r\s*t'
+   - '(?i)\s+h\s*u\s*r\s*e\s*n\s*s\s*o\s*h\s*n'
+   - '(?i)\s+h\s*u\s*a\s*n'
+   - '(?i)\s+f\s*e\s*t\s*t\s*s\s*a\s*c\s*k'
+   - '(?i)\s+h\s*u\s*r\s*e'
+   - '(?i)\s+n\s*u\s*t\s*t\s*e'
+   - '(?i)\s+s\s*c\s*h\s*l\s*a\s*m\s*p\s*e'
+   - '(?i)\s+s\s*p\s*a\s*s+\s*t'
+   - '(?i)\s+p\s*e\s*n+\s*(e\s*r|a)'
+   - '(?i)\s+w\s*i\s*x+\s*(e\s*r|a)'
+   - '(?i)\s+l\s*a\s*p+\s*e\s*n'
+   - '(?i)\s+d\s*r\s*e\s*c\s*k\s*s\s*a\s*c\s*k'
+   - '(?i)\s+n\s*e\s*g\s*(a|e\s*r)'
+   - '(?i)\s+h\s*i\s*e*\s*[td]+l+\s*(a|e\s*r)'
+   - '(?i)\s+hs'
+   - '((http?|https|ftp|file):\/\/)?((W|w){3}.)?[a-zA-Z0-9]+\.[a-zA-Z]+'
